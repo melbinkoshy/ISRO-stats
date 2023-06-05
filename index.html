@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ISRO Stats</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  
+  <header>
+   <h3>ISRO Stats</h3>
+    <nav>
+      
+      <ul class="nav-links">
+        <li><a class="launch-menu">launches</a></li>
+        <li><a class="spacecraft-menu">spacecrafts</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="instruction instruction-launch">Search by launch name</div>
+  <form class="launch-search">
+    <input placeholder="Enter launch name" type="text" class="search-input launch-search-input">
+    <input type="submit" value="search" class="search-btn launch-search-btn">
+  </form>
+  <form class="spacecraft-search">
+    <input placeholder="Enter spacecraft name" type="text" class="search-input spcaecraft-search-input">
+    <input type="submit" value="search" class="search-btn spacecraft-search-btn">
+  </form>
+  <div class="search-results">
+    <div class="table-row table-head table-head-launches">
+      <div class="table-cell">Name</div>
+      <div class="table-cell">Launch date</div>
+      <div class="table-cell">Launch Type</div>
+      <div class="table-cell">Payload</div>
+    </div>
+    <div class="table-row table-head table-head-spacecraft">
+      <div class="table-cell">Name</div>
+      <div class="table-cell">Launch date</div>
+      <div class="table-cell">Launch Vehicle</div>
+      <div class="table-cell">Application</div>
+      <div class="table-cell">Orbit Type</div>
+    </div>
+    <!-- <div class="table-row">
+      <div class="table-cell">name</div>
+      <div class="table-cell">Launch date</div>
+      <div class="table-cell">Launch Type</div>
+      <div class="table-cell">Payload</div>
+    </div>
+    <div class="table-row">
+      <div class="table-cell">name</div>
+      <div class="table-cell">Launch date</div>
+      <div class="table-cell">Launch Type</div>
+      <div class="table-cell">Payload</div>
+    </div> -->
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
